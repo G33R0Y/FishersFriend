@@ -98,4 +98,4 @@ I had to modify the `humancurve.py` and `_beziercurve.py` so that the given valu
 ## Author
  - Made by G33R0Y
 
-Feel free to explore and modify the script according to your needs.<font color="blue"> Happy fishing! </font>
+Feel free to explore and modify the script according to your needs. <font color="blue"> Happy fishing! </font>
