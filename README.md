@@ -60,6 +60,6 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 ## How to Run
 
 1. Ensure Python is installed on your system.
-2. Install required dependencies using the following command:
-   ```bash
-   pip install pyautogui ttkthemes
+2. Download the Repository
+3. Unzip Folder and go into the created 'FishersFriend' folder
+4. Open a Terminal(cmd) in this folder and run
