@@ -19,7 +19,36 @@ The "Human Catch Rate" checkbox introduces variability in the delay before certa
 ### Random Actions
 Enabling the "Random Actions" checkbox triggers the script to perform random in-game actions, such as opening the bag, map, jumping, or moving left and right.
 
+
+## Dependencies
+### GUI library
+- `tk`
+### Additional GUI components
+- `ttkthemes`
+- `Pillow`
+### Utility libraries
+- `pyautogui`
+- `numpy`
+- `pytweening`
+- `opencv-python`
+
+## Installation & How to Run
+
+1. Ensure Python is installed on your system.
+2. Download the Repository
+3. Unzip Folder and switch into the created 'FishersFriend' folder
+4. Open a Terminal(cmd) in the 'FishersFriend' folder and run:
+   ```
+   pip install -r requirements.txt
+   ```
+5. Now you can double-click the FishersFriend.py or run it from your IDE
+
+
 ## Usage
+1. **Set Fishing Rod:**
+   - If clicked a Screenshot gets taken and you can mark the Icon of the Fishing Rod in the taken Screenshot and confirm it to set it as the Image which should be found.
+2. **Set Bait:**
+   - If clicked a Screenshot gets taken and you can mark the the Bait (recommending only the inside of the feathers) in the taken Screenshot and confirm it to set it as the Image which should be found.
 
 1. **Set Confidence Levels:**
    - Adjust confidence levels for the fishing rod and bait using the provided sliders or entry widgets.
@@ -42,27 +71,6 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 7. **Set Fishing Rod/Bait:**
    - Use the "Set Fishing Rod" and "Set Bait" buttons to set images for the corresponding in-game actions.
 
-8. **Screenshot:**
-   - Screenshot buttons provide functionality for capturing images during the script execution.
 
-## Dependencies
-### GUI library
-- `tk`
-### Additional GUI components
-- `ttkthemes`
-- `Pillow`
-### Utility libraries
-- `pyautogui`
-- `numpy`
-- `pytweening`
-- `opencv-python`
 
-## How to Run
 
-1. Ensure Python is installed on your system.
-2. Download the Repository
-3. Unzip Folder and go into the created 'FishersFriend' folder
-4. Open a Terminal(cmd) in this folder and run:
-   ```
-   pip install -r requirements.txt
-   ```
