@@ -70,8 +70,8 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 5. **Human Reaction Time:**
    - Toggle the "Human Catch Rate" checkbox to make the bot miss some fishes.
    - (gets accomplished by setting a random delay between 1-5 seconds before the Right-Click)
-   - if delay is over 4s the fish will get away
-   - IF BUTTON IS NOT CHECKED the delay is between 1-3 seconds which is still a realistic human reaction time
+   - If delay is over 4s the fish will get away
+   - IF BUTTON IS NOT CHECKED: The delay is between 1-3 seconds which is still a realistic human reaction time
 
 6. **Random Actions:**
    - Enable the "Random Actions" checkbox to perform random in-game actions between the main catching loop (random after 1-15 catching loops).
@@ -83,5 +83,9 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
    - Click the "Start" button to begin the script execution, and use the "Stop" button to halt the execution.
 
 
+#Important Notes
+ - Adjustments to confidence levels, thresholds, and checkboxes should be made before starting the script.
 
-
+#Credits
+ - Made by G33R0Y
+Feel free to explore and modify the script according to your needs. Happy fishing!
