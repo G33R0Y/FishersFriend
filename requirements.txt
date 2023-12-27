@@ -1,0 +1,16 @@
+# GUI library
+tk
+
+# Additional GUI components
+ttkthemes
+Pillow
+
+# Utility libraries
+pyautogui
+numpy
+pytweening
+opencv-python
+
+# Other dependencies
+pynput
+pyclick
