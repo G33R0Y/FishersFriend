@@ -1,6 +1,6 @@
 # Fishers Friend
 
-Fishers Friend is an automation script designed to assist players in performing various actions in a fishing game. The script utilizes the `pyautogui` library to simulate keyboard presses and the `Tkinter` library for the graphical user interface (GUI). The main features include setting confidence levels, adjusting bait movement thresholds, enabling random actions, and providing visual feedback through a console.
+Fishers Friend is an automation script designed to catch fish in World of Warcraft. The script utilizes the `pyautogui` library to simulate keyboard presses and the `Tkinter` library for the graphical user interface (GUI). The main features include setting confidence levels, adjusting bait movement thresholds, enabling random actions, and providing visual feedback through a console.
 
 ## Features
 
