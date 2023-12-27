@@ -56,7 +56,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 
 1. **Set Confidence Levels:**
    - Adjust confidence levels for the fishing rod and bait image recognition using the provided sliders or entry widgets.
-     (Recommending to start with default and adjust if needed)
+   (Recommending to start with default and adjust if needed)
 
 2. **Set Bait Movement Threshold:**
    - Set the threshold for bait movement using the slider or enter a specific value.
