@@ -49,6 +49,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
    - If clicked a Screenshot gets taken and you can mark the Icon of the Fishing Rod in the taken Screenshot and confirm it to set it as the Image which should be found.
 2. **Set Bait:**
    - If clicked a Screenshot gets taken and you can mark the the Bait (recommending only the inside of the feathers) in the taken Screenshot and confirm it to set it as the Image which should be found.
+Bait Example:
 ![Bait Example](images/bait_example.PNG)
 
 1. **Set Confidence Levels:**
