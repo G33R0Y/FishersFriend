@@ -17,7 +17,7 @@ Users can set the threshold for bait movement (in pixel) for how much the bait c
 The "Keep in Foreground" checkbox allows the user to toggle whether the main window should stay on top of other windows.
 
 ### Human Reaction Time
-The "Human Catch Rate" checkbox introduces variability in the delay before certain actions, simulating a more human-like reaction time.
+The "Human Catch Rate" checkbox introduces variability in the delay before the Right-Click, simulating a more human-like reaction time.
 
 ### Random Actions
 Enabling the "Random Actions" checkbox triggers the script to perform random in-game actions, such as opening the bag, map, jumping, or moving left and right.
@@ -92,6 +92,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 ## Third-Party Code and Licenses
 
 This project includes code from [pyclick](https://github.com/patrikoss/pyclick) which is licensed under the MIT License. The original copyright notice and license text can be found in the [LICENSE](LICENSE) file.
+I had to modify the `humancurve.py` and `_beziercurve.py` so that the given values from my function are getting converted to integers.
 
 ## Author
  - Made by G33R0Y
