@@ -46,12 +46,12 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
    - Screenshot buttons provide functionality for capturing images during the script execution.
 
 ## Dependencies
-# GUI library
+### GUI library
 - `tk`
-# Additional GUI components
+### Additional GUI components
 - `ttkthemes`
 - `Pillow`
-# Utility libraries
+### Utility libraries
 - `pyautogui`
 - `numpy`
 - `pytweening`
