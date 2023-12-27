@@ -4,11 +4,14 @@ Fishers Friend is an automation script designed to assist players in performing 
 
 ## Features
 
+### Human Mousemovement
+The Script uses a library for generating human-like mouse movements. The movements are based on the concept of bezier curve: https://en.wikipedia.org/wiki/B%C3%A9zier_curve
+
 ### Confidence Levels
-The script allows users to set confidence levels for different in-game actions such as using the fishing rod or bait. The confidence levels are adjustable through sliders and entry widgets in the GUI.
+The script allows users to set confidence levels for the image recognition of the fishing rod or bait. The confidence levels are adjustable through sliders or value boxes in the GUI.
 
 ### Bait Movement Threshold
-Users can set a threshold for detecting bait movement. The threshold can be adjusted using a slider or by entering a specific value in the corresponding entry widget.
+Users can set the threshold for bait movement (in pixel) for how much the bait can move without triggering the Right-Click to catch the fish, using the slider or value box.
 
 ### Keep in Foreground
 The "Keep in Foreground" checkbox allows the user to toggle whether the main window should stay on top of other windows.
@@ -86,7 +89,11 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 ## Important Notes
  - Adjustments to confidence levels, thresholds, and checkboxes should be made before starting the script.
 
-## Credits
+## Third-Party Code and Licenses
+
+This project includes code from [pyclick](https://github.com/patrikoss/pyclick) which is licensed under the MIT License. The original copyright notice and license text can be found in the [LICENSE](LICENSE) file.
+
+## Author
  - Made by G33R0Y
 
 Feel free to explore and modify the script according to your needs. Happy fishing!
