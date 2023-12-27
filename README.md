@@ -83,9 +83,10 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
    - Click the "Start" button to begin the script execution, and use the "Stop" button to halt the execution.
 
 
-#Important Notes
+## Important Notes
  - Adjustments to confidence levels, thresholds, and checkboxes should be made before starting the script.
 
-#Credits
+## Credits
  - Made by G33R0Y
+
 Feel free to explore and modify the script according to your needs. Happy fishing!
