@@ -55,27 +55,32 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
      ![Bait Example](images/bait_example.PNG)
 
 1. **Set Confidence Levels:**
-   - Adjust confidence levels for the fishing rod and bait image recognition using the provided sliders or entry widgets.
+   - Adjust confidence levels for the fishing rod and bait image recognition using the provided sliders or value boxes.
    
-   (Recommending to start with default and adjust if needed)
+   (Recommending to start with default values and adjust if needed)
 
 2. **Set Bait Movement Threshold:**
-   - Set the threshold for bait movement using the slider or enter a specific value.
+   - Set the threshold for bait movement (in pixel) for how much the bait can move without triggering the Right-Click to catch the fish, using the slider or value box.
 
-3. **Keep in Foreground:**
-   - Toggle the "Keep in Foreground" checkbox based on the user's preference.
+   (Recommending to start with default values and adjust if needed)
+   
+4. **Keep in Foreground:**
+   - Toggle the "Keep in Foreground" checkbox to keep program in foreground.
 
-4. **Human Reaction Time:**
-   - Toggle the "Human Catch Rate" checkbox to introduce variability in reaction times.
+5. **Human Reaction Time:**
+   - Toggle the "Human Catch Rate" checkbox to make the bot miss some fishes.
+   - (gets accomplished by setting a random delay between 1-5 seconds before the Right-Click)
+   - if delay is over 4s the fish will get away
+   - IF BUTTON IS NOT CHECKED the delay is between 1-3 seconds which is still a realistic human reaction time
 
-5. **Random Actions:**
-   - Enable the "Random Actions" checkbox to perform random in-game actions periodically.
+6. **Random Actions:**
+   - Enable the "Random Actions" checkbox to perform random in-game actions between the main catching loop (random after 1-15 catching loops).
+   - For Example:
+      - Open/Close Map or Bag
+      - Move Right/Left and back to original position
 
-6. **Start/Stop:**
+7. **Start/Stop:**
    - Click the "Start" button to begin the script execution, and use the "Stop" button to halt the execution.
-
-7. **Set Fishing Rod/Bait:**
-   - Use the "Set Fishing Rod" and "Set Bait" buttons to set images for the corresponding in-game actions.
 
 
 
