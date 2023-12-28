@@ -89,6 +89,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 
 ## Important Notes
  - Adjustments to confidence levels, thresholds, and checkboxes should be made before starting the script.
+ - This code is designed to remain undetected as it interacts with the graphical user interface through screen capture, template matching, and simulated mouse clicks, avoiding direct engagement with the game's memory or processes.
 
 ## Third-Party Code and Licenses
 
