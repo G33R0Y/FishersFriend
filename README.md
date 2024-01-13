@@ -56,7 +56,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 
      Bait Example:
 
-     ![Bait Example](assets/bait_example.png)
+     ![Bait Example](assets/bait_example.PNG)
 
 1. **Set Confidence Levels:**
    - Adjust confidence levels for the fishing rod and bait image recognition using the provided sliders or value boxes.
