@@ -1,5 +1,5 @@
 # Fishers Friend
-![FishersFriend Example](assets/FishersFriend.PNG)
+![FishersFriend Example](assets/fishersfriend.png)
 
 Fishers Friend is an automation script designed to catch fish in World of Warcraft. The script utilizes the `pyautogui` library to simulate keyboard presses and the `Tkinter` library for the graphical user interface (GUI). The main features include setting confidence levels, adjusting bait movement thresholds, enabling random actions, and providing visual feedback through a console.
 
@@ -56,7 +56,7 @@ Enabling the "Random Actions" checkbox triggers the script to perform random in-
 
      Bait Example:
 
-     ![Bait Example](assets/bait_example.PNG)
+     ![Bait Example](assets/bait_example.png)
 
 1. **Set Confidence Levels:**
    - Adjust confidence levels for the fishing rod and bait image recognition using the provided sliders or value boxes.
